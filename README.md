@@ -61,7 +61,7 @@ Request (Body):
 ```bash
 endpoint: GET - https://bgfxulo076.execute-api.us-east-2.amazonaws.com/dev/tasks
 ```
-Request (Body):
+Response:
 ```json
 {
     [{"createdAt":{},"description":"primera description","id":"56449169-1235-4607-abbd-2f9b37d81aa4","title":"primera tarea"},{"createdAt":{},"description":"primera description","id":"7f4e3a68-a4a1-40bc-8ff4-c14c0bf7b127","title":"primera tarea"}]
@@ -82,11 +82,6 @@ Response:
 ```bash
 endpoint: GET -  https://ptk352kywj.execute-api.us-east-2.amazonaws.com/star-wars
 ```
-
-  GET - https://bgfxulo076.execute-api.us-east-2.amazonaws.com/dev/tasks
-  POST - https://ptk352kywj.execute-api.us-east-2.amazonaws.com/tasks
-  POST - https://ptk352kywj.execute-api.us-east-2.amazonaws.com/star-wars
-  GET - https://ptk352kywj.execute-api.us-east-2.amazonaws.com/star-wars
 Request (Body):
 ```json
 [
